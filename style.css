@@ -1,0 +1,99 @@
+body{
+    /* background-image: url(./img/denisse-leon-HZk7Jc9uPQg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: white;
+}
+.containerr{
+    max-width: 1200px;
+    width: 95%;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 20px;
+    /* border: 1px solid black; */
+    box-shadow: 0 5px 10px #888888;
+    padding: 10px;
+}
+.container{
+    max-width: 1200px;
+    width: 95%;
+    margin: auto;
+    margin-top: 25px;
+}
+.container .photo img{
+    border-radius: 50%;
+    margin-left: 50px;
+    filter: grayscale(300);
+    height: 300px;
+    width: 300px;
+}
+.container .photo img:hover{
+    filter: none;
+    border: 2px solid rgb(30, 134, 231);
+    padding: 5px;
+}
+.badal{
+    color: rgb(4, 149, 253);
+}
+.main .container{
+    display: flex;
+}
+.details{
+    margin-top: 90px;
+    font-size: 23px;
+    display: inline;
+    width: 50%;
+    /* background-color: red; */
+}
+.main .container .photo {
+    /* background-color: red; */
+    display: inline;
+    width: 50%;
+    margin-top: 20px;
+    float: left;
+}
+.btnx{
+    margin-top: 40px;
+}
+.main{
+    /* background-color: red; */
+    padding-bottom: 15px;
+}
+
+
+
+/* ------------ Responsive css --------------- */
+
+@media screen and (max-width:400px) {
+    .details{
+        margin-top: 30px;
+        font-size: 23px;
+        display: block;
+        width: 100%;
+        /* background-color: red; */
+    }
+    .main .container .photo {
+        /* background-color: red; */
+        display: block;
+        width: 50%;
+        margin-top: 20px;
+        float: none;
+    }
+    .main .container{
+        display: block;
+    }
+
+    .container .photo img{
+        border-radius: 50%;
+        margin-left: auto;
+        filter: grayscale(300);
+    }
+    .container .photo img:hover{
+        filter: none;
+        border: 2px solid rgb(30, 134, 231);
+        padding: 5px;
+    }
+    .btnx{
+        margin-top: 30px;
+    }
+}
